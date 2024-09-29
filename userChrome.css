@@ -3,5 +3,6 @@
     background: var(--lwt-header-image, var(--lwt-additional-images))
                 no-repeat var(--lwt-background-tiling) var(--lwt-background-alignment)
                 var(--lwt-accent-color) !important;
+    background-position-y: calc(-1 * var(--theme-firefoxtheme-heightmove)) !important;
   }
 }
